@@ -1,0 +1,402 @@
+    1  git add --all
+    2  ls
+    3  cd CIT173_Lab1/
+    4  git
+    5  cit add --all
+    6  git add --all
+    7  push origin master
+    8  git push origin master
+    9  ls
+   10  git push origin master
+   11  git commit -m
+   12  git commit -m -a
+   13  git push origin master
+   14  clear
+   15  git commit -m -a "initial comit"
+   16  git add --all
+   17  git commit -m -a "initial comit"
+   18  git commit -m -a
+   19  ls
+   20  ]git add my-sys-info.txt 
+   21  git add 
+   22  git add ?
+   23  git add ?.?
+   24  git add ./
+   25  git add .?
+   26  git add .my-syy-info.txt
+   27  git add /my-syy-info.txt
+   28  git add /my-sys-info.txt
+   29  git add my-sys-info.txt
+   30  git push origin master
+   31  clear
+   32  stop
+   33  shutdown
+   34  shutdown -i
+   35  clear
+   36  ls
+   37  mkdir CIT173_Lab1
+   38  ls
+   39  cd CIT173_Lab1/
+   40  export FAVORITE_ANIMAL=dog
+   41  export MY_AGE=19
+   42  export BEST_PIZZA_TOPPING=pepperoni
+   43  export MY_MIDDLE_NAME=jonah
+   44  export MY_CAR_MAKE=subaru
+   45  env > my-env.txt
+   46  ls
+   47  cat my-env.txt 
+   48  clear
+   49  cat /etc/group > my-groups.txt
+   50  ls
+   51  head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > file1.dat
+   52  head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > file2.dat
+   53  ls
+   54  cat file1.dat > my-concat-file.dat
+   55  cat file2.dat >> my-concat-file.dat 
+   56  ls
+   57  man sed
+   58  sed s/1/monkey my-concat-file.dat >monkey.dat
+   59  ls
+   60  cat monkey.dat 
+   61  clear
+   62  git config --global user.name zzach9903
+   63  git config --global user.name zzach9902
+   64  git init
+   65  git remote add origin https://github.com/zzach9902/CIT173_Lab1.git
+   66  git add -all
+   67  git add --all
+   68  git push origin master
+   69  git remote add origin https://github.com/zzach9902/CIT173_Lab1
+   70  git init
+   71  git remote add origin https://github.com/zzach9902/CIT173_Lab1
+   72  git remote add origin https://github.com/zzach9902/CIT173_Lab1.git
+   73  remove origin https://github.com/zzach9902/CIT173_Lab1
+   74  remote remove origin https://github.com/zzach9902/CIT173_Lab1
+   75  git remote remove origin https://github.com/zzach9902/CIT173_Lab1
+   76  git remote remove origin https://github.com/zzach9902/CIT173_Lab1.git
+   77  clear
+   78  git init
+   79  git
+   80  git rm
+   81  git init
+   82  git push origin master
+   83  git push -u origin master
+   84  clear
+   85  git commit -m "initial commit"
+   86  git config --global user.email zcrawshaw@gmail.com
+   87  git config --global user.name zzach9902
+   88  git commit -m "initial commit"
+   89  git push origin master
+   90  uname > my-sys-info.txt
+   91  ls
+   92  add -all
+   93  git add -all
+   94  clear
+   95  shutdown
+   96  shutdown -c 
+   97  shutdown -n
+   98  man shutdown
+   99  shutdown -h
+  100  -c
+  101  shutdown -c
+  102  clear
+  103  haly
+  104  halt
+  105  sudo halt
+  106  cd
+  107  ls
+  108  mk dir CIT173_Lab2
+  109  mkdir CIT173_Lab2
+  110  ls
+  111  shell
+  112  SHELL
+  113  echo $SHELL
+  114  echo $SHELL > shell.txt
+  115  ls
+  116  rm shell.txt 
+  117  cd CIT173_Lab2
+  118  echo $SHELL
+  119  echo $SHELL > shell.txt
+  120  ls
+  121  clear
+  122  echo $0
+  123  ech $0 > current-shell.txt
+  124  echo $0 > current-shell.txt
+  125  clear
+  126  cat shell.txt 
+  127  cat current-shell.txt 
+  128  clear
+  129  type
+  130  man type
+  131  echo type
+  132  type bash
+  133  type bash > bash-type
+  134  type bash > bash-type.txt
+  135  ls
+  136  rm bash-type
+  137  clear
+  138  ls
+  139  clear
+  140  cd
+  141  cd `/
+  142  celar
+  143  clear
+  144  cd ~/
+  145  clear
+  146  cd
+  147  clear
+  148  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+  149  ls
+  150  cd CIT173_Lab2_Files/
+  151  clear
+  152  ls
+  153  cd
+  154  cd CIT173_Lab
+  155  ls
+  156  cd CIT173_Lab2
+  157  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+  158  ls
+  159  cd CIT173_Lab2_Files/
+  160  ls
+  161  cat phonebook1.txt >my-phonebook.txt
+  162  ls
+  163  cat my-phonebook.txt 
+  164  clear
+  165  cat phonebook2.txt >> my-phonebook.txt 
+  166  clear
+  167  wc my-phonebook.txt 
+  168  less my-phonebook.txt 
+  169  clear
+  170  less my-phonebook.txt 
+  171  clear
+  172  less my-phonebook.txt 
+  173  clear
+  174  cat my-phonebook.txt | less
+  175  clear
+  176  man less
+  177  less my-phonebook.txt 
+  178  clear
+  179  ls
+  180  join
+  181  clear
+  182  more
+  183  more my-phonebook.txt 
+  184  clear
+  185  cat phonelisting1.txt 
+  186  cat phonelisting1.txt >>my-phonelisting.txt
+  187  clear
+  188  ls
+  189  clear
+  190  cs phonelisting2.txt  >> my-phonelisting.txt 
+  191  cat phonelisting2.txt  >> my-phonelisting.txt 
+  192  clear
+  193  ls
+  194  cat my-phonelisting.txt 
+  195  clear
+  196  tac my-phonebook.txt >my-phonebook-reverse.txt 
+  197  clear
+  198  man join
+  199  clear
+  200  join my-phonebook.txt my-phonelisting.txt > my-joined-phonebook.txt
+  201  ls
+  202  cat my-joined-phonebook.txt 
+  203  clear
+  204  unexpand
+  205  man unexpand
+  206  unexpand my-phonebook.txt > my-tabbed-phonebook.txt
+  207  cat my-tabbed-phonebook.txt 
+  208  clear
+  209  man sor
+  210  man sort
+  211  clear
+  212  sort -d my-phonebook.txt > my-sorted-phonebook.txt
+  213  cat my-sorted-phonebook.txt 
+  214  man sort
+  215  clear
+  216  sort -g my-phonebook.txt > my-sorted-phonebook.txt
+  217  cat my-sorted-phonebook.txt 
+  218  clear
+  219  man nl
+  220  clear
+  221  nl my-phonebook.txt > my-numbered-phonebook.txt
+  222  cat my-numbered-phonebook.txt 
+  223  clear
+  224  man head
+  225  clear
+  226  head -n=5 my-phonebook.txt 
+  227  head -n my-phonebook.txt 
+  228  head -n5 my-phonebook.txt 
+  229  head -n5 my-phonebook.txt >my-head-phonebook.txt
+  230  celar
+  231  clear
+  232  man tail
+  233  clear
+  234  tail -n5 my-phonebook.txt
+  235  tail -n5 my-phonebook.txt > my-tail-phonebook.txt
+  236  cat my-tail-phonebook.txt 
+  237  clear
+  238  history > ~/CIT173_Lab/my-command-history.txt
+  239  history > ~/CIT173_Lab2/my-command-history.txt
+  240  ls
+  241  cd
+  242  cd CIT173_Lab2
+  243  ls
+  244  cat my-command-history.txt 
+  245  celar
+  246  clear
+  247  git init
+  248  git remote add origin https://github.com/vr3zz/CIT173_Lab2.git
+  249  git add --all
+  250  git commit -m "initial commit"
+  251  git push origin master
+  252  clear
+  253  ls
+  254  cd CIT173_Lab2_Files/
+  255  ls
+  256  man mv
+  257  clear
+  258  cd CIT173_Lab2
+  259  cd
+  260  cd CIT173_Lab
+  261  cd CIT173_Lab2
+  262  mv CIT173_Lab2_Files/*
+  263  mv CIT173_Lab2_Files/* CIT173_Lab2
+  264  mv CIT173_Lab2_Files/* ~/CIT173_Lab2
+  265  ls
+  266  git add --all
+  267  git push origin master
+  268  git add --all
+  269  git commit -m ""
+  270  git commit -m "files"
+  271  git push origin master
+  272  clear
+  273  ls
+  274  mkdir Files
+  275  mv -t ~/CIT173_Lab2/Files/
+  276  mv -t ~/CIT173_Lab2/Files/ my-head-phonebook.txt  my-phonelisting.txt phonebook2.txt my-joined-phonebook.txt my-sorted-phonebook.txt phonelisting1.txt my-numbered-phonebook.txt my-tabbed-phonebook.txt phonelisting2.txt my-phonebook-reverse.txt  my-tail-phonebook.txt shell.txt my-command-history.txt my-phonebook.txt  phonebook1.txt 
+  277  ls
+  278  git add --all
+  279  git commit
+  280  git push origin master
+  281  clear
+  282  shutdown 
+  283  shutdown -c
+  284  sudo init 0
+  285  echo $SHELL
+  286  echo $0
+  287  echo -a
+  288  ech o-a $0
+  289  ech -a $0
+  290  echo -a $0
+  291  -a SHELL
+  292  echo -a $SHELL
+  293  -a SHELL
+  294  -s $SHELL
+  295  $SHELL -a
+  296  type
+  297  type bash
+  298  sudo init 0
+  299  clear
+  300  ls
+  301  cd CIT173_Lab2
+  302  ls
+  303  cat bash-type.txt current-shell.txt > test.txt
+  304  ls
+  305  cat test.txt 
+  306  cat bash-type.txt 
+  307  cat current-shell.txt 
+  308  clear
+  309  sudo init 0
+  310  clear
+  311  mkdir CIT173_Lab3
+  312  ls
+  313  cd CIT173_Lab3/
+  314  clear
+  315  cd
+  316  clear
+  317  git clone https://github.com.RenoTechnologyAcademy/CIT173_Laab3_Files.git
+  318  git clone https://github.com/RenoTechnologyAcademy/CIT173_Laab3_Files.git
+  319  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab3_Files.git
+  320  clear
+  321  cd
+  322  ls
+  323  cd CIT173_Lab3_Files/
+  324  ls
+  325  sudo taar -xvf phonebook.tar.gz 
+  326  sudo tar -xvf phonebook.tar.gz 
+  327  clear
+  328  ls
+  329  sudo cat phonebook1
+  330  sudo cat phonebook1.txt 
+  331  clear
+  332  sudo sed "s/575/775/g" phonebook1.txt 
+  333  clear
+  334  sudo cat phonebook1.txt 
+  335  sed man
+  336  man sed
+  337  sudo cat phonebook1.txt > phonebook1.txt 
+  338  clear
+  339  sudo cat phonebook1.txt > phonebook1.txt 
+  340  clear
+  341  cat phonebook1.txt 
+  342  sudo cat phonebook1.txt 
+  343  sudo sed -i "s/575/775/g" phonebook1.txt 
+  344  sudo cat phonebook1.txt 
+  345  clear
+  346  sudo sed -i "s/575/775/g" phonebook2.txt 
+  347  sudo cat phonebook2.txt 
+  348  clear
+  349  sudo
+  350  sudo -l
+  351  clear
+  352  sudo -i
+  353  clear
+  354  aptget install python3-minimal
+  355  apt install python3-minimal
+  356  sudo apt intall python3-minimal
+  357  sudo apt python3-minimal
+  358  sudo apt install python3-minimal
+  359  clear
+  360  apt
+  361  apt show python3-minimal
+  362  apt
+  363  run
+  364  clear
+  365  apt
+  366  apt list
+  367  clear
+  368  dnf
+  369  apt list --installed
+  370  clear
+  371  apt list --installed > my-installed-1.txt
+  372  clear
+  373  ls
+  374  clear
+  375  man python
+  376  clear
+  377  ls
+  378  python hello
+  379  python3
+  380  clear
+  381  ls
+  382  python3 hello.py
+  383  python3 infinite.py 
+  384  clear
+  385  python3 infinite.py &
+  386  ps
+  387  ps > my-processes-1.txt
+  388  clear
+  389  ps
+  390  kill 17050
+  391  ps > my-processes-2.txt
+  392  clear
+  393  ls
+  394  apt remove python3-minimal
+  395  sudo apt remove python3-minimal
+  396  clear
+  397  apt -l 
+  398  apt list --installed
+  399  apt list python3-minimal
+  400  apt list --installed > my-installed-2.txt 
+  401  clear
+  402  history > ~/CIT173_Lab3/my-command-history.txt
